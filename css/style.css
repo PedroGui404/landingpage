@@ -30,3 +30,36 @@ ul{
     color: rgb(199, 12, 12);
     font-size: 22px;
 }
+
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-title{
+    position: absolute;
+    padding: 30px;
+    color: aliceblue;
+    background-color: chocolate;
+    font-size: 32px;
+}
+
+.home-bg-image{
+    width: 100%;
+}
+
+.promotions-title{
+    text-align: center;
+    margin: 40px 0;
+}
+.promotions-image{
+    display:flex;
+    gap: 20px;
+    justify-content: center;
+}
+#promotions .image-item{
+    width: 405px;
+    height: 251px;
+    background-image: url(https://github.com/digitalcollegebr/projeto-digital-store/blob/main/public/collection-1.png?raw=true);
+}
